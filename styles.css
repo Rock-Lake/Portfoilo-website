@@ -1,0 +1,21 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+a{
+    color: #fff;
+}
+header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: #0b41b4;
+    color: #fff;
+}
+#profile-pic{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+}
