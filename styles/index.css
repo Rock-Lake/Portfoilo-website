@@ -1,0 +1,114 @@
+/* *{
+    border: solid red;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    margin-left: 0px;
+    background-color:bisque;
+}
+
+.header_logo{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.navbar_list{
+    width: fit-content;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: flex-end;
+    padding: 0;
+    background-color: transparent;
+    list-style: none;
+
+}
+
+.navbar_list > a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro{
+    display: flex;
+    /* padding: 30px, 24px; */
+    margin-bottom: 40px;
+    line-height: 24px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.intro_content{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 40px;
+}
+
+.intro_title{
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.intro_subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+
+.intro_figure{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro_picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;  
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; 
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
